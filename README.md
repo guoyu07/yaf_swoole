@@ -21,7 +21,7 @@ location / {
 location ~ .*\.(php|php5)?$ {
            proxy_pass http://127.0.0.1:8888;
        }
-```shell
+```
 
 其他说明
 1.此程序仅为简单测试例子，不保障生产环境可用
